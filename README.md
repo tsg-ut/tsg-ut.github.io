@@ -11,6 +11,17 @@ http://sig.tsg.ne.jp/<repository name>
 
 というURLで当該分科会のリポジトリにアクセスすることができるようになる．
 
+### jekyllを用いる場合
+
+_config.ymlに以下の項目を設定する．
+
+```
+baseurl: "/<repository name>"
+url: "http://sig.tsg.ne.jp"
+```
+
+わからない場合は既存の分科会のGithub Pagesを参照するとよい．
+
 ## tsg-ut Github Pages 一覧
 
 + [2015年度 機械学習分科会](http://sig.tsg.ne.jp/ml2015/)
